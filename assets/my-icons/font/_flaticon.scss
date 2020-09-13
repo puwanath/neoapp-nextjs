@@ -1,0 +1,55 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 21/06/2018 11:47
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-chimney:before { content: "\f100"; }
+.flaticon-kitchen:before { content: "\f101"; }
+.flaticon-living-room:before { content: "\f102"; }
+.flaticon-parking:before { content: "\f103"; }
+.flaticon-park:before { content: "\f104"; }
+.flaticon-desk:before { content: "\f105"; }
+.flaticon-bathtub:before { content: "\f106"; }
+.flaticon-bed:before { content: "\f107"; }
+    
+    $font-Flaticon-chimney: "\f100";
+    $font-Flaticon-kitchen: "\f101";
+    $font-Flaticon-living-room: "\f102";
+    $font-Flaticon-parking: "\f103";
+    $font-Flaticon-park: "\f104";
+    $font-Flaticon-desk: "\f105";
+    $font-Flaticon-bathtub: "\f106";
+    $font-Flaticon-bed: "\f107";

@@ -1,0 +1,10 @@
+/*page config*/
+.imglogo{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.dataTables_scrollBody thead tr[role="row"]{
+    visibility: collapse !important;
+}
