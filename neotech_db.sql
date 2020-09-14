@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2020-09-07 23:49:12
+Date: 2020-09-14 00:00:22
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -10424,7 +10424,7 @@ CREATE TABLE `kp_log` (
   `log_desc` text,
   `log_time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`log_id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=297 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+) ENGINE=InnoDB AUTO_INCREMENT=300 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- ----------------------------
 -- Records of kp_log
@@ -10725,6 +10725,9 @@ INSERT INTO `kp_log` VALUES ('293', '127.0.0.1', 'Windows 10', 'Firefox', 'U0001
 INSERT INTO `kp_log` VALUES ('294', '127.0.0.1', 'Windows 10', 'Firefox', 'U0001', 'อัพเดท [สินค้า] ชื่อ ทดสอบ', '2020-07-12 14:49:11');
 INSERT INTO `kp_log` VALUES ('295', '127.0.0.1', 'Windows 10', 'Firefox', 'U0001', 'เข้าสู่ระบบ ด้วย Username puwanath', '2020-08-07 22:39:08');
 INSERT INTO `kp_log` VALUES ('296', '127.0.0.1', 'Windows 10', 'Firefox', 'U0001', 'เข้าสู่ระบบ ด้วย Username puwanath', '2020-09-03 23:58:07');
+INSERT INTO `kp_log` VALUES ('297', '127.0.0.1', 'Windows 10', 'Firefox', 'U0001', 'เข้าสู่ระบบ ด้วย Username puwanath', '2020-09-11 20:25:57');
+INSERT INTO `kp_log` VALUES ('298', '127.0.0.1', 'Windows 10', 'Firefox', 'U0001', 'เข้าสู่ระบบ ด้วย Username puwanath', '2020-09-12 02:55:23');
+INSERT INTO `kp_log` VALUES ('299', '127.0.0.1', 'Windows 10', 'Firefox', 'U0001', 'เข้าสู่ระบบ ด้วย Username puwanath', '2020-09-13 14:22:28');
 
 -- ----------------------------
 -- Table structure for kp_members
@@ -11681,7 +11684,7 @@ CREATE TABLE `kp_seo` (
 -- ----------------------------
 -- Records of kp_seo
 -- ----------------------------
-INSERT INTO `kp_seo` VALUES ('1', 'Neo Tect Composite', '', '', '', '');
+INSERT INTO `kp_seo` VALUES ('1', 'Neotech Composite นีโอเทค คอมโพสิท ผู้นำเข้าอุปกรณ์คอมโพสิต ทุกชนิดราคาย่อมเยาว์', 'Neotech Composite นีโอเทค คอมโพสิท ผู้นำเข้าอุปกรณ์คอมโพสิต ทุกชนิดราคาย่อมเยาว์', 'Resin, เรซิ่น,  Gelcoat, เจลโค้ท,  Polyester, โพลีเอสเตอร์, Vinylester, Epoxy resin, อีพ็อกซี่เรซิ่น, เจลโค้ต, ใยแก้ว, ผ้าคาร์บอน, เคฟล่าร์,แผ่นรังผึ้ง, คอร์แมท, พีวีซีโฟม, ไม้บราซ่า, เรซิ่นทำโมล, เจลโค้ตทำโมล, เครื่องพ่นเจลโค้ต, วัสดุแว็กคั่ม', '', '');
 
 -- ----------------------------
 -- Table structure for kp_shipping_type
@@ -12268,7 +12271,7 @@ CREATE TABLE `kp_users` (
 -- ----------------------------
 -- Records of kp_users
 -- ----------------------------
-INSERT INTO `kp_users` VALUES ('U0001', 'puwanath', 'baibua', 'puwanath', '81dc9bdb52d04dc20036dbd8313ed055', 'puwanath.kapongidea@gmail.com', '0895200321', 'b5f260d1044cb3b9d661e658ba9fabc4-1558146702.jpg', '1', '1599152287', null, '0', '1');
+INSERT INTO `kp_users` VALUES ('U0001', 'puwanath', 'baibua', 'puwanath', '81dc9bdb52d04dc20036dbd8313ed055', 'puwanath.kapongidea@gmail.com', '0895200321', 'b5f260d1044cb3b9d661e658ba9fabc4-1558146702.jpg', '1', '1599981748', null, '0', '1');
 INSERT INTO `kp_users` VALUES ('U0002', 'ภูวนาท', 'ใบบัว', 'puwanath', 'e21e4e58ad9ab56e8a4634046da90113', 'puwanath.kapongidea@gmail.com', '0895200321', 'U0002-1552713368.jpg', '2', '1527060022', '1527059911', '0', '1');
 INSERT INTO `kp_users` VALUES ('U0003', 'admin', 'Neo Tech', 'admin', '81dc9bdb52d04dc20036dbd8313ed055', 'info@neo.co.th', '', 'U0003-1582442874.jpg', '2', '1573424339', null, '0', '1');
 
@@ -12303,7 +12306,7 @@ CREATE TABLE `kp_user_online` (
 -- ----------------------------
 -- Records of kp_user_online
 -- ----------------------------
-INSERT INTO `kp_user_online` VALUES ('U0001', '2020-09-03 23:58:10');
+INSERT INTO `kp_user_online` VALUES ('U0001', '2020-09-13 14:22:31');
 
 -- ----------------------------
 -- Table structure for kp_user_permission
